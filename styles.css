@@ -1,0 +1,112 @@
+body{    
+   
+    background-color: #c9c7c5;
+    color: #333;
+}
+
+
+.cabecalho{
+    background-image: url("https://github.com/thaispupato/projeto-ong/blob/main/2.JPG?raw=true");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(8, 8, 8);
+    padding: 50px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        
+}
+
+
+.menu-navegacao{
+    background-color: #0c0c0c;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(250, 248, 248, 0.1); 
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.nav-links{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-links a{
+    color:#ffffff;
+    text-decoration: none;
+    padding: 20px 15px;
+    display: block;
+    transition: background-color 0.2s ease;
+}
+
+.nav-links a:hover{
+    background-color: #555;   
+}
+
+.nav-links a.link{
+    background-color: #f3f2f2;  
+}
+
+
+
+.container-principal{
+    background-image: url("https://github.com/thaispupato/projeto-ong/blob/main/musica2%20esta%202.jpg?raw=true"), 
+                        url("https://github.com/thaispupato/projeto-ong/blob/main/kids3.webp?raw=true"),
+                            url("https://github.com/thaispupato/projeto-ong/blob/main/kids2.webp?raw=true");
+    background-repeat: repeat-x,
+                        repeat-y,
+                         round;
+    background-size: 30%,
+                      30%,
+                        30%;
+    background-clip: border-box,
+                        border-box;
+                            border-box;
+    background-attachment: scroll;
+    background-position: right,
+                            center center,
+                                left;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 350px; <!-- espaçamento entre cartões ---> 
+    padding: 100px;
+}
+
+.cartao{
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 700px;
+    padding: 50px;
+    transition: transform 0.3s;
+    font-family: 'Courier New', Courier, monospace;
+}
+.cartao:hover{  
+    transform: translateY(-5px);
+}
+
+.rodape{
+    text-align: center;
+    padding: 1px;
+    margin-top: 0;
+    background-color: #000000;
+    color: #ecf0f1;
+    font-family: 'Courier New', Courier, monospace;   
+}
+
+a{
+  color: rgb(255, 255, 255) !important;
+}
+a:hover{
+  text-decoration: none !important;
+} 
+
+
+.conteudo{
+    padding: initial;    
+}
