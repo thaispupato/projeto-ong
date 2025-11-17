@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial=scale-1.0">
+<title> Ong Projeto Plantando Notas - Página inicial </title>
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <h1>  </h1>  
+    </header>
+
+    
+    <nav class="menu-navegacao">
+            <ul class="nav-links"> 
+            <li><a href="index.html"> Home </a></li>
+            <li><a href="sobre.html"> Sobre nós </a></li>
+            <li><a href="projetos.html"> Projetos </a></li>
+            <li><a href="contato.html"> Contato </a></li>                   
+        </ul>
+    </nav>
+
+    <main class="container-principal"> 
+    <article class="cartao">
+        <h2> Sobre nós: </h2>
+        <h3> Neste espaço você poderá conhecer mais sobre nossos projetos, colaboradores e nossa visão de como a arte pode transformar vidas! </h3>
+        <p>  Somos mais que uma ONG: somos um projeto de vida! Nosso sonho começou pequeno, em uma garaegm bagunçada de nossa fundadora, Maisa Pupato. Como todo sonho, nosso 
+            projeto ganhou robustez, o que começou com uma aula de canto indiviudal, sobrevoou limites. Hoje nosso projeto alcança em volta de 700 alunos todos os meses, em aulas práticas e teóricas de canto e instrumentos musicais.
+            Acreditamos que a música e a arte em geral pode transformar vidas e, consequentemente, a sociedade, adicionando beleza e novas oportunidades no nosso dia a dia.
+        </p>
+    </article>
+        <article class="cartao">
+        <p> A música é uma revelação superior a toda sabedoria e filosofia. A música é o solo fértil no qual o espírito vive, pensa e cria - Beethoven </p>
+    </article>
+    </main>
+
+    <div class="conteudo">
+
+    </div>
+
+<footer class="rodape">
+    <p> &copy; 2025 Todos os direitos reservados </p>
+    <br> <a href="index.html"> Voltar para Home </a>
+</footer>
+
+<script src="script.js" defer></script>
+
+
+
+
+</body>
+</html>
+
