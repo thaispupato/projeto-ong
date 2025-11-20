@@ -1,0 +1,128 @@
+body{    
+    justify-content: center;
+    background-color: #c9c7c5;
+    color: #333;
+        
+}
+
+
+.cabecalho{
+    background-image: url("https://github.com/thaispupato/projeto-ong/blob/main/2.JPG?raw=true");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(8, 8, 8);
+    padding: 50px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        
+}
+
+
+.menu-navegacao{
+    background-color: #0c0c0c;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(250, 248, 248, 0.1); 
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.nav-links{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-links a{
+    color:#ffffff;
+    text-decoration: none;
+    padding: 20px 15px;
+    display: block;
+    transition: background-color 0.2s ease;
+}
+
+.nav-links a:hover{
+    background-color: #555;   
+}
+
+.nav-links a.link{
+    background-color: #ff5733;  
+}
+
+
+.form-container{
+    background-color: white;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    width: 450%;
+    max-width: 1800px;
+    height: 3000%;
+    text-align:center;
+    place-items: center
+    
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+}
+.form-group label{
+    display: block;
+    margin-bottom: 15px;
+    color: #030303;
+    font-weight: bold;
+    text-align: center;
+    place-items: center
+    
+
+}
+    
+.form-group input,
+.form-group textarea{
+    width: 100%;
+    padding: 10px;
+    border: 5px solid #ccc;
+    border-radius: 5px;
+    font-size: 20px;
+    box-sizing: border-box;
+    transition: border-color: 0.3 ease;
+    text-align: center;
+    place-items: center
+    
+
+    
+}
+.form-group input:focus, 
+.form-group textarea:focus{
+    border-color: #c9cccf;
+    outline: none;    
+    text-align: center;
+
+}
+
+
+
+.rodape{
+    text-align: center;
+    padding: 1px;
+    margin-top: 0;
+    background-color: #000000;
+    color: #ecf0f1;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a{
+  color: rgb(255, 255, 255) !important;
+}
+a:hover{
+  text-decoration: none !important;
+} 
+
+.conteudo{
+    padding: initial;    
+}
